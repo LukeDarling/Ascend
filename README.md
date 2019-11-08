@@ -30,6 +30,6 @@ Micah Hanevich.
 * Test Plan
 
 ## Logs
-* Luke's Journal
-* Bao's Journal
-* Micah's Journal
+* [Luke's Journal](https://github.com/TeamIndex0/Ascend/wiki/Luke's-Journal)
+* [Bao's Journal](https://github.com/TeamIndex0/Ascend/wiki/BaoLeJournal)
+* [Micah's Journal](https://github.com/TeamIndex0/Ascend/wiki/Micah-Journal)
