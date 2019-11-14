@@ -21,5 +21,12 @@
       <FileName>HighScore.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Ascend.Platform">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAIAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
