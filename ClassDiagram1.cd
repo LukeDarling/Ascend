@@ -14,5 +14,12 @@
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Ascend.HighScore">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAIAAAAAAAABAAAAAAAAAAAAAAAAAFAAAAAAAAAAA=</HashCode>
+      <FileName>HighScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
