@@ -28,5 +28,15 @@ namespace Ascend
         {
             // Code to start a game sequence
         }
+
+        public void FinishGame()
+        {
+
+        }
+
+        public void UpdateScreen()
+        {
+            // Update where the objects are on-screen
+        }
     }
 }
