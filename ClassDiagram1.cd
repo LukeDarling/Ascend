@@ -28,5 +28,12 @@
       <FileName>Platform.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Ascend.Game">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAgYAAAAAAACAAAgAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
