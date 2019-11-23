@@ -20,6 +20,9 @@ namespace Ascend {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
+
+            Game game = new Game();
+
         }
     }
 }

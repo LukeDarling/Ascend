@@ -4,17 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ascend
-{
-    class Platform
-    {
-        public int[] Dimensions { get; set; } = new int[2];
+namespace Ascend {
+    class Platform : Vector2 {
 
-        public int[] Location { get; set; } = new int[2];
+        public double yVelocity;
 
-        public void ScrollDown (int distance)
-        {
-            Location[1] -= distance;
+        public Platform() {
+            yVelocity = -0.02;
+        }
+
+        public void ScrollDown() {
+            y -= yVelocity;
+        }
+
+        public void HandleGameTick() {
+            ScrollDown();
         }
     }
 }

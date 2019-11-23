@@ -2,8 +2,29 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Luke\Documents\CpS 209\Ascend\MainWindow.xaml</string>
-      <string>C:\Users\Luke\Documents\CpS 209\Ascend\MainWindow.xaml.cs</string>
+      <string>C:\Users\Luke\Documents\Ascend\ClassDiagram1.cd</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\Player.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\Vector2.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\HighScore.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\MainWindow.xaml</string>
+      <string>C:\Users\Luke\Documents\Ascend\MainWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\Platform.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\Box.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Luke\Documents\Ascend\Game.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

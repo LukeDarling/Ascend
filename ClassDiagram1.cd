@@ -1,38 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Ascend.Player">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="1.5" Width="1.5" />
     <NestedTypes>
       <Enum Name="Ascend.Player.State" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>Player.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
+      <Enum Name="Ascend.Player.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAgABCAAAAAAAAAAQAAAAAAAIABAAAgAAAAAAAAEAA=</HashCode>
+      <HashCode>ACAAABCAAAAKAAIAAQBACAgAASAAAAGgAQAAAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ascend.HighScore">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Position X="2.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACIAIAAAAAAAABAAAAAAAAAAAAAAAAAFAAAAAAAAAAA=</HashCode>
       <FileName>HighScore.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ascend.Platform">
-    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Position X="4.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAIAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Platform.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ascend.Game">
-    <Position X="0.5" Y="4" Width="1.5" />
+    <Position X="2.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAAAAAgYAAAAAAACAAAgAAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ascend.Vector2">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAABgAGAAAAA=</HashCode>
+      <FileName>Vector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ascend.App" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ascend.HighScoreTest" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQEAAAAQAAARA=</HashCode>
+      <FileName>HighScoreTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ascend.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ascend.Properties.Resources" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ascend.Properties.Settings" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
