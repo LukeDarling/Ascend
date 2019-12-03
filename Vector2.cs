@@ -19,5 +19,19 @@ namespace Ascend {
             this.x = x;
             this.y = y;
         }
+
+        public bool Overlaps(Vector2 point) {
+            if (point.x == x) {
+                if (point.y == y) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public bool Overlaps(Box box) {
+            return box.Overlaps(this);
+        }
+
     }
 }

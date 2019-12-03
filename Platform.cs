@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Ascend {
-    class Platform : Vector2 {
+    class Platform : Box {
 
         public double yVelocity;
 

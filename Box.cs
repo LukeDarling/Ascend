@@ -5,11 +5,51 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Ascend {
-    class Box {
-        public double x { get; set; }
-        public double y { get; set; }
-        public double x2 { get; set; }
-        public double y2 { get; set; }
+    public class Box {
+        public double x {
+            get {
+                return x;
+            }
+            set {
+                x = value;
+                xMin = Math.Min(x, x2);
+                xMax = Math.Max(x, x2);
+            }
+        }
+        public double y {
+            get {
+                return y;
+            }
+            set {
+                y = value;
+                yMin = Math.Min(y, y2);
+                yMax = Math.Max(y, y2);
+            }
+        }
+        public double x2 {
+            get {
+                return x2;
+            }
+            set {
+                x2 = value;
+                xMin = Math.Min(x, x2);
+                xMax = Math.Max(x, x2);
+            }
+        }
+        public double y2 {
+            get {
+                return y2;
+            }
+            set {
+                y2 = value;
+                yMin = Math.Min(y, y2);
+                yMax = Math.Max(y, y2);
+            }
+        }
+        public double xMin { get; set; }
+        public double yMin { get; set; }
+        public double xMax { get; set; }
+        public double yMax { get; set; }
 
         public Box() {
             x = 0;
@@ -19,43 +59,25 @@ namespace Ascend {
         }
 
         public Box(double x, double y) {
-            this.x2 = x;
-            this.y2 = y;
+            x2 = x;
+            y2 = y;
         }
 
         public bool Overlaps(Box box) {
-            double xMinThis = Math.Min(x, x2);
-            double xMaxThis = Math.Max(x, x2);
-            double xMinThat = Math.Min(box.x, box.x2);
-            double xMaxThat = Math.Max(box.x, box.x2);
-
-            double yMinThis = Math.Min(y, y2);
-            double yMaxThis = Math.Max(y, y2);
-            double yMinThat = Math.Min(box.y, box.y2);
-            double yMaxThat = Math.Max(box.y, box.y2);
-
-            if (xMinThis < xMaxThat || xMaxThis > xMinThat) {
-                if (yMinThis < yMaxThat || yMaxThis > yMinThat) {
+            if (xMin < box.xMax || xMax > box.xMin) {
+                if (yMin < box.yMax || yMax > box.yMin) {
                     return true;
                 }
             }
-
             return false;
         }
 
         public bool Overlaps(Vector2 point) {
-            double xMinThis = Math.Min(x, x2);
-            double xMaxThis = Math.Max(x, x2);
-
-            double yMinThis = Math.Min(y, y2);
-            double yMaxThis = Math.Max(y, y2);
-
-            if (xMinThis < point.x || xMaxThis > point.x) {
-                if (yMinThis < point.y || yMaxThis > point.y) {
+            if (xMin < point.x || xMax > point.x) {
+                if (yMin < point.y || yMax > point.y) {
                     return true;
                 }
             }
-
             return false;
         }
 
